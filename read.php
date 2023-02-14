@@ -67,9 +67,8 @@
     }
 ?>
 
-<a href="index.php">Home page</a>
-<h3>Pizza's</h3>
-<a href="index.php"><input type="button" value="Bestel nieuwe pizza"></a>
+<h3>Achtbanen</h3>
+<a href="index.php"><input type="button" value="Voer nieuwe achtbaan in"></a>
 <br><br>
 <table border="1">
     <thead>

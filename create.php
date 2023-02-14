@@ -54,5 +54,5 @@ $statement->bindValue(':cijfer', $_POST['cijferR'], PDO::PARAM_STR);
 $statement->execute();
 
 echo "Het opslaan is gelukt";
-// Link door naar read.php voor een overzicht van de gegevens in tabel Persoon
+// Link door naar read.php voor een overzicht van de gegevens in tabel achtbaan
 header('Refresh:4; url=read.php');
