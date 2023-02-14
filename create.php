@@ -42,13 +42,13 @@ $sql = "INSERT INTO achtbaan (Id
 $statement = $pdo->prepare($sql);
 
 // De bindValue method bind de $_POST waarde aan de placeholder
-$statement->bindValue(':achtbaan', $_POST['NaamAchtbaan'], PDO::PARAM_STR);
-$statement->bindValue(':pretpark', $_POST['NaamPretpark'], PDO::PARAM_STR);
-$statement->bindValue(':land', $_POST['Land'], PDO::PARAM_STR);
-$statement->bindValue(':topsnelheid', $_POST['Topsnelheid'], PDO::PARAM_STR);
-$statement->bindValue(':hoogte', $_POST['Hoogte'], PDO::PARAM_STR);
-$statement->bindValue(':datum', $_POST['Datum'], PDO::PARAM_STR);
-$statement->bindValue(':cijfer', $_POST['Cijfer'], PDO::PARAM_STR);
+$statement->bindValue(':achtbaan', $_POST['achtbaan'], PDO::PARAM_STR);
+$statement->bindValue(':pretpark', $_POST['pretpark'], PDO::PARAM_STR);
+$statement->bindValue(':land', $_POST['land'], PDO::PARAM_STR);
+$statement->bindValue(':topsnelheid', $_POST['topsnelheid'], PDO::PARAM_STR);
+$statement->bindValue(':hoogte', $_POST['hoogte'], PDO::PARAM_STR);
+$statement->bindValue(':datum', $_POST['datum'], PDO::PARAM_STR);
+$statement->bindValue(':cijfer', $_POST['cijferR'], PDO::PARAM_STR);
 
 // Voer de sql-query uit op de database
 $statement->execute();
