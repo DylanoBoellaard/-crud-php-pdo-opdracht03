@@ -12,8 +12,8 @@
 
     <a href="read.php">Achtbanen lijst</a>
     <form action="create.php" method="post">
-        <label for="naam">Naam achtbaan:</label><br>
-            <input type="text" id="naam" name="naam">
+        <label for="achtbaan">Naam achtbaan:</label><br>
+            <input type="text" id="achtbaan" name="achtbaan">
         <br>
         <br>
         <label for="pretpark">Naam pretpark:</label><br>
@@ -33,7 +33,7 @@
         <br>
         <br>
         <label for="datum">Datum eerste opening:</label><br>
-            <input type="date">
+            <input type="date" id="datum" name="datum">
         <br>
         <br>
         <label for="cijfer">Cijfer voor achtbaan:</label><br>
