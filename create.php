@@ -19,9 +19,7 @@ try {
 
 $post = var_dump($_POST);
 
-/**
- * We gaan een sql-query maken voor het wegschrijven van de formuliergegevens in de tabel Persoon
- */
+
 // Schrijf de sql-insertquery
 $sql = "INSERT INTO achtbaan (Id
                             ,NaamAchtbaan
