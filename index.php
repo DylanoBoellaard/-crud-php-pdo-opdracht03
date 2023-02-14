@@ -42,7 +42,7 @@
         <br>
         <br>
 
-        <input type="submit" value="Bestel">
+        <input type="submit" value="Submit">
     </form>
 
     <script src="script.js"></script>
